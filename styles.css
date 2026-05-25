@@ -68,10 +68,11 @@ a {
   background: rgba(251, 250, 248, 0.9);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--line);
+  box-shadow: 0 4px 24px rgba(23, 36, 51, 0.035);
 }
 
 .header-inner {
-  min-height: 84px;
+  min-height: 76px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,8 +87,8 @@ a {
 }
 
 .brand-mark {
-  width: 48px;
-  height: 48px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -110,13 +111,13 @@ a {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: .08em;
-  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  font-size: clamp(.92rem, 1.55vw, 1.18rem);
 }
 
 .brand-subtitle {
   margin-top: 5px;
   color: var(--teal);
-  font-size: .78rem;
+  font-size: .7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .28em;
@@ -125,7 +126,7 @@ a {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 24px;
   font-size: .84rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -141,7 +142,7 @@ a {
 }
 
 .nav-cta {
-  padding: 12px 16px;
+  padding: 11px 16px;
   border-radius: 999px;
   background: var(--ink);
   color: var(--white);
@@ -171,15 +172,15 @@ a {
 }
 
 .hero {
-  padding: 88px 0 72px;
+  padding: 64px 0 58px;
   background:
     linear-gradient(115deg, var(--paper) 0%, var(--paper) 52%, rgba(222,217,210,.45) 52%, rgba(222,217,210,.2) 100%);
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.02fr) minmax(360px, .78fr);
-  gap: 56px;
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, .68fr);
+  gap: 48px;
   align-items: center;
 }
 
@@ -203,8 +204,8 @@ h1, h2 {
 }
 
 h1 {
-  font-size: clamp(3.25rem, 8vw, 6.8rem);
-  max-width: 720px;
+  font-size: clamp(3rem, 6.5vw, 5.65rem);
+  max-width: 660px;
   margin-bottom: 24px;
 }
 
@@ -220,8 +221,8 @@ h3 {
 }
 
 .hero-lede {
-  max-width: 610px;
-  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  max-width: 600px;
+  font-size: clamp(1.05rem, 1.55vw, 1.24rem);
   color: var(--ink-2);
 }
 
@@ -284,7 +285,9 @@ h3 {
 
 .hero-card {
   position: relative;
-  border-radius: 28px;
+  border-radius: 24px;
+  max-width: 430px;
+  justify-self: end;
   overflow: hidden;
   box-shadow: var(--shadow);
   background: var(--warm-gray);
@@ -302,13 +305,13 @@ h3 {
 
 .hero-card img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 4 / 4.85;
   object-fit: cover;
   object-position: center top;
 }
 
 .statement {
-  padding: 46px 0;
+  padding: 40px 0;
   background: var(--ink);
   color: var(--white);
 }
@@ -319,10 +322,10 @@ h3 {
 }
 
 .statement p {
-  max-width: 920px;
+  max-width: 860px;
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(1.55rem, 3vw, 2.4rem);
+  font-size: clamp(1.35rem, 2.45vw, 2rem);
   line-height: 1.2;
   text-align: center;
 }
@@ -556,7 +559,8 @@ h3 {
   }
 
   .hero-card {
-    max-width: 520px;
+    max-width: 430px;
+    justify-self: start;
   }
 
   .service-grid {
