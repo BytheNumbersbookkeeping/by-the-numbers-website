@@ -1,19 +1,12 @@
-# By the Numbers Bookkeeping Service — Static Website
+# By the Numbers Bookkeeping Service Website
 
-This package is a clean static replacement draft for GitHub Pages.
+Static website files for Cloudflare Pages.
 
-## Files
-- `index.html` — homepage content and structure
-- `styles.css` — full responsive design system
-- `script.js` — mobile navigation toggle
-- `assets/cassie-headshot.jpg` — current real photo asset copied from the uploaded image
-- `assets/favicon.svg` — simple abstract line mark
+Files:
+- index.html
+- styles.css
+- assets/logo.png
+- assets/favicon.png
+- assets/cassie-desk.png
 
-## How to upload to GitHub Pages
-1. Upload all files and the `assets` folder to your repository root.
-2. In GitHub, go to Settings → Pages.
-3. Set the source to deploy from the main branch/root folder.
-4. Replace the email/phone/client portal links as needed.
-
-## Notes
-This version intentionally avoids AI-generated faces and avoids copy that shames the client with “messy books” language.
+Upload all files and the assets folder to the GitHub repository root.
