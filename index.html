@@ -6,6 +6,8 @@
   <title>By the Numbers Bookkeeping Service</title>
   <meta name="description" content="Bookkeeping, QuickBooks cleanup, payroll, sales tax workflow support, and CPA-ready record organization for small businesses." />
   <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -155,7 +157,7 @@
 <section id="about" class="section section-light">
   <div class="container about-grid">
     <div class="about-photo">
-      <img src="assets/cassie-desk.png" alt="Cassie Burns at her desk" />
+      <img src="assets/cassie-desk.png" alt="Illustrated portrait of Cassie Burns" />
     </div>
 
     <div class="about-copy">
@@ -175,20 +177,18 @@
 </section>
 
 <section id="contact" class="section contact">
-  <div class="container contact-layout">
+  <div class="container contact-box contact-layout">
     <div class="contact-copy">
       <p class="eyebrow">Start here</p>
       <h2>Ready for bookkeeping that fits the way your business runs?</h2>
       <p>
-        You do not need to know exactly what service you need before reaching out. Share what prompted you to look for support, and I’ll help identify the right next step.
-      </p>
-      <p class="contact-note">
-        This form is for new client inquiries only. Existing clients can use the client portal or the document-sharing link provided for their account.
+        You do not need to know whether you need cleanup, monthly bookkeeping, QuickBooks support, sales tax workflow help, or POS review before reaching out. Start with what prompted you to look for support, and I’ll help identify the right next step.
       </p>
     </div>
 
     <form class="contact-form" action="https://formspree.io/f/xjgzapav" method="POST">
-      <input type="hidden" name="_subject" value="New website inquiry from By the Numbers Bookkeeping Service" />
+      <input type="hidden" name="_subject" value="New website inquiry - By the Numbers Bookkeeping Service" />
+      <input type="hidden" name="source" value="By the Numbers website contact form" />
 
       <div class="form-grid">
         <div class="form-field">
@@ -197,8 +197,8 @@
         </div>
 
         <div class="form-field">
-          <label for="business-name">Business name</label>
-          <input id="business-name" name="business_name" type="text" autocomplete="organization" />
+          <label for="business">Business name</label>
+          <input id="business" name="business" type="text" autocomplete="organization" />
         </div>
       </div>
 
@@ -234,8 +234,8 @@
 
       <input class="form-honey" type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
 
+      <p class="form-note">Please do not send sensitive financial documents through this public form. I’ll provide secure sharing instructions if we decide to work together.</p>
       <button class="button primary" type="submit">Get Started</button>
-      <p class="form-disclaimer">Please do not send account numbers, tax IDs, passwords, or sensitive documents through this form.</p>
     </form>
   </div>
 </section>

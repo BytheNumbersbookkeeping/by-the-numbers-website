@@ -1,20 +1,23 @@
-# By the Numbers Bookkeeping Service - V7 Formspree Update
+# By the Numbers Bookkeeping Service — Version 7.2
 
-This version preserves the V7 logo-led design and existing assets while adding a static Formspree inquiry form to the Start Here section.
+This version keeps the existing V7/contact-form site structure and updates only the visual assets.
 
-## Changed files
-- `index.html` - replaced the Start Here mailto button with a Formspree-powered contact form.
-- `styles.css` - added contact form styling and light desktop spacing refinements.
+## Active website assets
+- `assets/logo.png` — updated full logo used by the header/footer
+- `assets/cassie-desk.png` — updated illustrated portrait used in the About section, preserving the existing HTML path
+- `assets/favicon.png` — updated website tab icon
+- `assets/favicon-32.png` — smaller favicon version
+- `assets/apple-touch-icon.png` — mobile/home-screen icon
 
-## Form endpoint
-The form posts to:
-`https://formspree.io/f/xjgzapav`
-
-## Before publishing
-1. Upload all files to GitHub, preserving the `assets` folder.
-2. Submit a test inquiry on the live site.
-3. Confirm the Formspree email notification arrives.
-4. In Formspree, confirm or adjust notification settings and spam settings.
+## Extra bundled brand assets
+- `assets/logo-full.png` — full logo duplicate for easy reference
+- `assets/logo-full-alt-ponytail.png` — alternate full logo option
+- `assets/logo-wordmark.png` — separated text/wordmark asset
+- `assets/logo-wordmark-alt.png` — alternate separated wordmark asset
+- `assets/cassie-avatar.png` — separated portrait/avatar asset
+- `assets/cassie-avatar-alt-ponytail.png` — alternate portrait/avatar option
 
 ## Notes
-This form is intentionally simple. It does not request sensitive information or file uploads.
+- The Formspree contact form endpoint remains set to `https://formspree.io/f/xjgzapav`.
+- No chatbot or portal changes were made.
+- Upload the contents of this folder to the site repository root.
