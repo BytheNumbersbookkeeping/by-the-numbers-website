@@ -175,13 +175,68 @@
 </section>
 
 <section id="contact" class="section contact">
-  <div class="container contact-box">
-    <p class="eyebrow">Start here</p>
-    <h2>Need help getting your books ready?</h2>
-    <p>
-      Whether your CPA asked for cleaner records, your QuickBooks file needs review, or your business has grown beyond what you want to manage on your own, I can help you figure out the next step.
-    </p>
-    <a class="button primary" href="mailto:cassie@bynumbersbookkeeping.com?subject=Bookkeeping%20Review">Start with a bookkeeping review</a>
+  <div class="container contact-layout">
+    <div class="contact-copy">
+      <p class="eyebrow">Start here</p>
+      <h2>Ready for bookkeeping that fits the way your business runs?</h2>
+      <p>
+        You do not need to know exactly what service you need before reaching out. Share what prompted you to look for support, and I’ll help identify the right next step.
+      </p>
+      <p class="contact-note">
+        This form is for new client inquiries only. Existing clients can use the client portal or the document-sharing link provided for their account.
+      </p>
+    </div>
+
+    <form class="contact-form" action="https://formspree.io/f/xjgzapav" method="POST">
+      <input type="hidden" name="_subject" value="New website inquiry from By the Numbers Bookkeeping Service" />
+
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+        </div>
+
+        <div class="form-field">
+          <label for="business-name">Business name</label>
+          <input id="business-name" name="business_name" type="text" autocomplete="organization" />
+        </div>
+      </div>
+
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+        </div>
+
+        <div class="form-field">
+          <label for="phone">Phone <span>optional</span></label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" />
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label for="support-type">What are you looking for help with?</label>
+        <select id="support-type" name="support_type" required>
+          <option value="">Select one</option>
+          <option value="Cleanup / catch-up bookkeeping">Cleanup / catch-up bookkeeping</option>
+          <option value="Monthly bookkeeping">Monthly bookkeeping</option>
+          <option value="QuickBooks support">QuickBooks support</option>
+          <option value="Payroll or sales tax workflow support">Payroll or sales tax workflow support</option>
+          <option value="Payment processor / POS workflow">Payment processor / POS workflow</option>
+          <option value="Not sure yet">Not sure yet</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label for="message">What prompted you to reach out?</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <input class="form-honey" type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+
+      <button class="button primary" type="submit">Get Started</button>
+      <p class="form-disclaimer">Please do not send account numbers, tax IDs, passwords, or sensitive documents through this form.</p>
+    </form>
   </div>
 </section>
 
